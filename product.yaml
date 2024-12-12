@@ -1,6 +1,10 @@
 spring:
   application:
     name: product
+  config:
+    import:
+      - optional:configserver:http://configserver:8880/
+
   datasource:
     url: jdbc:mysql://mysql:3306/ms_product
     username: root
