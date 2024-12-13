@@ -32,8 +32,9 @@ springdoc:
 api:
   responseCodes:
     okDescription: OK
-    badRequestDescription: "Bad Request, invalid format of the request. See response message for more information"
-    internalServerErrorDescription: "Internal Server Error. See response message for more information"
+    badRequestDescription: "Solicitud incorrecta, formato inválido de la solicitud. Consulte el mensaje de respuesta para más información."
+    internalServerErrorDescription: "Error interno del servidor. Consulte el mensaje de respuesta para más información."
+
 
 management:
   endpoints:
