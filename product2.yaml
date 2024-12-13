@@ -17,7 +17,7 @@ spring:
     database-platform: org.hibernate.dialect.MySQLDialect
 
 server:
-  port: 9090
+  port: 9091  # O 9091 para ms-product2
   error:
     include-messages: always
 
@@ -34,7 +34,6 @@ api:
     okDescription: OK
     badRequestDescription: "Solicitud incorrecta, formato inválido de la solicitud. Consulte el mensaje de respuesta para más información."
     internalServerErrorDescription: "Error interno del servidor. Consulte el mensaje de respuesta para más información."
-
 
 management:
   endpoints:
