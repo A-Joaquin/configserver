@@ -1,6 +1,6 @@
 spring:
   application:
-    name: product
+    name: ms-product2
   config:
     import:
       - optional:configserver:http://configserver:8880/
